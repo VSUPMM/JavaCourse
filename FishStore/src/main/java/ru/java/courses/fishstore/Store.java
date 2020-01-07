@@ -1,32 +1,39 @@
 package ru.java.courses.fishstore;
 
+import java.util.Arrays;
+import java.util.HashMap;
+
 public class Store {
-
-    private Box[] shelf = new Box[100];
-
-    private int count;
 
     private int budget;
 
-    public Store(Box[] shelf, int count, int budget) {
-        this.shelf = shelf;
-        this.count = count;
-        this.budget = budget;
-    }
+    private HashMap<AbstractFish, Box[]> fishBoxes = new HashMap<>();
 
-    public Box sell(int money ){
-        Box box = shelf[count-1];
-        shelf[count-1] = null;
-        count--;
-        budget += money;
+    public Box sell(AbstractFish requiedFish){
+        Box box = removeFishBoxes(requiedFish);
+        budget += box.getTotalPrice();
         return box;
     }
 
-    public int buy ( Box box ){
-        shelf[count] = box;
-        count++;
+    public int buy (Box box){
+        addFishBoxes(box);
         budget -= box.getTotalPrice();
         return box.getTotalPrice();
+    }
+
+    public void addFishBoxes (Box box){
+        Box[] boxes = fishBoxes.get(box.getFish());
+        boxes = Arrays.copyOf(boxes, boxes.length + 1);
+        boxes[boxes.length-1] = box;
+        fishBoxes.put(box.getFish(), boxes); //replace with new array
+    }
+
+    public Box removeFishBoxes (AbstractFish requiedFish){
+        Box[] boxes = fishBoxes.get(requiedFish);
+        Box box = boxes[boxes.length - 1]; //last box
+        boxes = Arrays.copyOf(boxes, boxes.length - 1);
+        fishBoxes.put(box.getFish(), boxes);
+        return box;
     }
 
 }
