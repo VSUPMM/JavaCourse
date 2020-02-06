@@ -26,11 +26,7 @@ class Lesson4_FlowControlTest {
                 "Кирпич",
                 task1(new String[]{"Кирпич", "Блок", "Плита", "Кольцо"}),
                 "{\"Кирпич\", \"Блок\", \"Плита\", \"Кольцо\"} → \"Кирпич\""
-        );Lesson1
-                Lesson2
-        Lesson3_Operators
-                Lesson4_FlowControl
-        Lesson5to8_OOP
+        );
         assertEquals(
                 "Горб",
                 task1(new String[]{"Горб", "Горн"}),

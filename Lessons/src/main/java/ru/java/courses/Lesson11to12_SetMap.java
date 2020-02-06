@@ -1,23 +1,14 @@
 package ru.java.courses;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
+import java.lang.reflect.Array;
+import java.util.*;
 import java.util.Map.Entry;
-import java.util.Set;
-import java.util.TreeMap;
-import java.util.TreeSet;
 import java.util.stream.Collectors;
 import javax.swing.tree.TreeCellEditor;
 
 public class Lesson11to12_SetMap {
 
-    public static class User {
+    public static class User{
 
         private String name;
         private int age;
@@ -55,6 +46,22 @@ public class Lesson11to12_SetMap {
         public void setPhone(String phone) {
             this.phone = phone;
         }
+
+
+        @Override
+        public boolean equals(Object o){
+             if (!(o instanceof User)) {
+                return false;
+            }
+            User user = (User) o;
+            return user.getAge()==this.getAge()
+                    && user.getName() == this.getName();
+        }
+
+        @Override
+        public int hashCode() {
+             return Objects.hash(this.name,this.age);
+        }
     }
 
     /**
@@ -64,11 +71,20 @@ public class Lesson11to12_SetMap {
      * 3. Сортируем по имени и возрасту
      * 4. Возвращаем последнего пользователя
      */
-    public static User task1(Collection<User> source) {
-        // свой код нужно писать тут
-        // следующую строку можно удалять
+    public static User task1 (Collection<User> source) {
+        List<User> list = new ArrayList<>();
+        Set<User> set= new HashSet<User>();
+        set.addAll(source);
+        list.addAll(set);
 
-        return null;
+        list.sort(Comparator.comparing(User::getName).thenComparing(User::getAge));
+
+        final Iterator itr = list.iterator();
+        Object curElement = itr.next();
+        while(itr.hasNext()) {
+            curElement = itr.next();
+        }
+        return (User)curElement;
     }
 
     /**
@@ -79,10 +95,11 @@ public class Lesson11to12_SetMap {
      * 4. Вернуть количество записей в справочнике
      */
     public static int task2(Collection<User> source) {
-        // свой код нужно писать тут
-        // следующую строку можно удалять
-
-       return 0;
+        Map<String,User> map = new HashMap<>();
+        for (User el: source) {
+            map.put(el.phone,el);
+        }
+        return map.size();
     }
 
 
@@ -97,10 +114,22 @@ public class Lesson11to12_SetMap {
      * Нумерация полок начинается с единицы!
      */
     public static Map task3(Collection<String> source) {
-        // свой код нужно писать тут
-        // следующую строку можно удалять
+        Map<Integer, List<String>> map = new HashMap<>();
+        List<String> source2 = new ArrayList<>(source);
 
-        return null;
+        int step = source2.size() / 5;
+        Collections.sort(source2);
+        for (String name: source2) {
+            int cur = (source2.indexOf(name) / step % 5) + 1;
+            List<String> lst = map.get(cur);
+            if (lst == null) {
+                lst = new ArrayList();
+            }
+            lst.add(name);
+            map.put(cur, lst);
+        }
+
+        return map;
     }
 
 
@@ -110,8 +139,10 @@ public class Lesson11to12_SetMap {
      * 5. Вернуть справочник [название книги -> номер полки]
      */
     public static Map task4(Map<Integer, String> source) {
-        // свой код нужно писать тут
-        // следующую строку можно удалять
-        return null;
+        Map<String, Integer> map = new HashMap<>();
+        for (Map.Entry<Integer, String> entry: source.entrySet()) {
+           map.put(entry.getValue(),entry.getKey());
+        }
+        return map;
     }
 }

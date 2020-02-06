@@ -12,7 +12,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,7 +30,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -82,33 +82,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Lessons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lessons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lessons" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="Lessons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -119,7 +105,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FishStore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -332,6 +318,8 @@
       <workItem from="1576740217596" duration="1130000" />
       <workItem from="1576742042169" duration="750000" />
       <workItem from="1576742825036" duration="236000" />
+      <workItem from="1580325878921" duration="13000" />
+      <workItem from="1580325913839" duration="13000" />
     </task>
     <servers />
   </component>
@@ -368,12 +356,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53583000" />
+    <option name="totallyTimeSpent" value="53609000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28366113" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2927383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -413,42 +401,12 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/java/courses/Lesson10_CollectionsListsTest.java" />
-    <entry file="file://$PROJECT_DIR$/../../../Java/JavaCourses-master/Lessons/src/main/java/ru/java/courses/sport/team/football/PlayerRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Java/JavaCourses-master/Lessons/src/main/java/ru/java/courses/sport/team/football/FootballPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Java/JavaCourses-master/Lessons/src/main/java/ru/java/courses/sport/team/football/FootballTeam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Java/JavaCourses-master/Lessons/src/main/java/ru/java/courses/sport/team/football/PlayerRole.java" />
+    <entry file="file://$PROJECT_DIR$/../../../Java/JavaCourses-master/Lessons/src/main/java/ru/java/courses/sport/team/football/FootballPlayer.java" />
+    <entry file="file://$PROJECT_DIR$/../../../Java/JavaCourses-master/Lessons/src/main/java/ru/java/courses/sport/team/football/FootballTeam.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/sport/team/football/Box.java" />
-    <entry file="file://$PROJECT_DIR$/../../../Java/JavaCourses-master/Lessons/src/main/java/ru/java/courses/sport/team/football/Coach.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Java/JavaCourses-master/Lessons/src/main/java/ru/java/courses/sport/team/football/Athlete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Java/JavaCourses-master/Lessons/src/main/java/ru/java/courses/sport/team/football/Coach.java" />
+    <entry file="file://$PROJECT_DIR$/../../../Java/JavaCourses-master/Lessons/src/main/java/ru/java/courses/sport/team/football/Athlete.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/AbstractStore.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/patterns/BoxBuilder.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/patterns/strategy/GiftStrategy.java" />
@@ -464,89 +422,16 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/java/courses/Lesson3_OperatorsTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/java/courses/Lesson5to8_OOPTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/Lesson5to8_OOP.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/factory/FishFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/Box.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/AbstractFish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/factory/Fish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/factory/FishTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/Redfish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/SnookBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/Carp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/Snook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/Store.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/factory/FishFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/Box.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/AbstractFish.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/factory/Fish.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/factory/FishTypes.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/Redfish.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/SnookBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/Carp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/Snook.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/java/courses/fishmodel/Fishes/Store.java" />
   </component>
   <component name="masterDetails">
     <states>
